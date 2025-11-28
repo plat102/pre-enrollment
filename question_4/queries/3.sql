@@ -24,4 +24,5 @@ WITH client__more_than_10_orders AS (
 
 -- Get first and second last order
 SELECT * FROM order__rank_by_date
-WHERE rn_last IN (1, 2)
+WHERE rn_last IN (1, 2);
+

@@ -4,4 +4,4 @@ SELECT
     count(DISTINCT client_id) AS unique_client_count,
     count(order_id) AS total_order_count
 FROM "ORDER" 
-GROUP BY order_month
+GROUP BY order_month;
